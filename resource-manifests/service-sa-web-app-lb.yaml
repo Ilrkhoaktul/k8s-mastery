@@ -4,6 +4,7 @@ metadata:
   name: sa-web-app-lb
 spec:
   type: LoadBalancer
+  externalIPs: ["192.168.1.156"]
   ports:
   - port: 80
     protocol: TCP
